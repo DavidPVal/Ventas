@@ -1,4 +1,5 @@
 ﻿using System;
+using Ventas.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace Ventas
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new ProductoPage();
         }
 
         protected override void OnStart()
